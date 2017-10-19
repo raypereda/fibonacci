@@ -1,5 +1,5 @@
 # fibonacci
 go programming language exercises
 
-# test out testing with tables
-
+- [x] test out testing with tables
+- [x] test out internal test
