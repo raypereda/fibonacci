@@ -1,9 +1,16 @@
 package fib
 
+func isNonNegative(n int) bool {
+	if 0 <= n {
+		return true
+	}
+	return false
+}
+
 // Fib1 returns of the fibonacci of input
 func Fib1(n int) int {
-	if n < 0 {
-		panic("fibonacci input most be non-negative")
+	if !isNonNegative(n) {
+		panic("fibonacci input must be non-negative")
 	}
 	if n < 2 {
 		return n

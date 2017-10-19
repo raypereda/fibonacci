@@ -7,5 +7,7 @@ import (
 
 func main() {
 	fmt.Println("Hi")
-	fmt.Println(fib.Fib1(100))
+	for i := 0; i < 10; i++ {
+		fmt.Println(i, "fibonacci number is", fib.Fib1(i))		
+	}
 }
